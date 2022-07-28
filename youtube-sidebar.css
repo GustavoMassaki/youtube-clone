@@ -1,0 +1,121 @@
+.side__bar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+
+    background-color: white;
+    width: 72px;
+
+    z-index: 200;
+
+    padding-top: 5px;
+}
+
+.side__bar--link {
+    display: flex;
+    height: 74px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    cursor: pointer;
+}
+
+.side__bar--link:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.side__bar--link img {
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.side__bar--link div {
+    font-size: 10px;
+}
+@media(min-width:1200px) {
+    .side__bar {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 55px;
+
+        background-color: white;
+        width: 72px;
+
+        z-index: 200;
+
+        padding-top: 5px;
+    }
+
+    .side__bar--link {
+        display: flex;
+        height: 74px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        cursor: pointer;
+    }
+
+    .side__bar--link:hover {
+        background-color: rgb(235, 235, 235);
+    }
+
+    .side__bar--link img {
+        height: 24px;
+        margin-bottom: 4px;
+    }
+
+    .side__bar--link div {
+        font-size: 10px;
+    }
+}
+@media(min-width:1200.1px) {
+    .side__bar {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 55px;
+        background-color: white;
+        width: 240px;
+        z-index: 200;
+        padding-top: 6px;
+    }
+
+    .side__bar--link {
+        position: relative;
+        display: flex;
+
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+
+        cursor: pointer;
+        height: 44px;
+        gap: 16px;
+
+        padding-left: 24px;
+    }
+
+    .side__bar--link:hover {
+        background-color: rgb(235, 235, 235);
+    }
+
+    .side__bar--link img {
+        height: 24px;
+    }
+
+    .side__bar--link div {
+        font-family: Roboto, Arial;
+        font-weight: 400;
+        font-size: 14px;
+    }   
+}
+
+@media (max-width: 350px) {
+    .side__bar {
+        display: none;
+    }
+}

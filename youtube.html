@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Youtube project</title>
+    <link rel="stylesheet" href="/youtube-body.css">
+    <link rel="stylesheet" href="/youtube-header.css">
+    <link rel="stylesheet" href="/youtube-general.css">
+    <link rel="stylesheet" href="/youtube-sidebar.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="left__section">
+            <img class="hamburguer-menu" src="/icons/hamburger-menu.svg" alt="">
+            <img class="youtube-logo" src="/icons/youtube-logo.svg" alt="">
+        </div>
+        <div class="middle__section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img src="/icons/search.svg" alt="" class="search-icon">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img src="/icons/voice-search-icon.svg" alt="" class="voice-search-icon">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right__section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="/icons/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-apps-container">
+                <img class="youtube-apps" src="/icons/youtube-apps.svg" alt="">
+                <div class="tooltip">Youtube apps</div>
+            </div>
+            <div class="notifications-icon-container">
+                <img class="youtube-notification" src="/icons/notifications.svg" alt="">
+                <div class="notification-count">6</div>
+                <div class="tooltip">Notifications </div>
+            </div>
+            <img class="youtube-profile-pic" src="/ytb-img/cutedog-4587971.jpg" alt="">
+        </div>
+    </header>
+
+    <div class="side__bar">
+        <div class="side__bar--link">
+            <img src="/logos/home.svg" alt="">
+            <div>Home</div>
+        </div>
+        <div class="side__bar--link">
+            <img src="/logos/explore.svg" alt="">
+            <div>Explore</div>
+        </div>
+        <div class="side__bar--link">
+            <img src="/logos/subscriptions.svg" alt="">
+            <div>Subscriptions</div>
+        </div>
+        <div class="side__bar--link">
+            <img src="/logos/originals.svg" alt="">
+            <div>Originals</div>
+        </div>
+        <div class="side__bar--link">
+            <img src="/logos/youtube-music.svg" alt="">
+            <div>YouTube Music</div>
+        </div>
+        <div class="side__bar--link">
+            <img src="/logos/library.svg" alt="">
+            <div>Library</div>
+        </div>
+    </div>
+    <main>
+        <section class="video__grid">
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=w7-Yw8tGRB8">
+                        <img class="thumbnail" src="/ytb-img/tumb-1.webp" alt="">
+                    </a>
+                    <div class="video-time">6:15</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/user/ScoutNationHD">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-1.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">                               
+                                <img class="channel__container--img" src="/ytb-img/channel-1.jpg" alt="">                                
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">ScoutNation</div>
+                                    <div class="channel__info--subscribers">1.1M subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                            <a href="https://www.youtube.com/watch?v=w7-Yw8tGRB8" class="video__title">The Match That Made Man City Buy Gabriel Jesus</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/user/ScoutNationHD" class="video__author">ScoutNation</a>
+                        </p>
+                        <p class="video__stats">2.1M views &middot; 3 years ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=_pLW_An56X0">
+                        <img class="thumbnail" src="/ytb-img/tumb-2.webp" alt="">
+                    </a>
+                    <div class="video-time">6:36</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/c/Newsthink">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-2.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-2.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">NewsThink</div>
+                                    <div class="channel__info--subscribers">500K subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                            <a href="https://www.youtube.com/watch?v=_pLW_An56X0" class="video__title">Why So Many CEOs are from India</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/c/Newsthink" class="video__author">NewsThink</a>
+                        </p>
+                        <p class="video__stats">1.2M views &middot; 7 months ago<p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=zuegQmMdy8M">
+                        <img class="thumbnail" src="/ytb-img/tumb-3.webp" alt="">
+                    </a>
+                    <div class="video-time">3:47:22</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/c/Freecodecamp">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-3.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-3.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">freeCodeCamp.org</div>
+                                    <div class="channel__info--subscribers">5.97M subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                            <a href="https://www.youtube.com/watch?v=zuegQmMdy8M" class="video__title">Pointers in C / C++ [Full Course]</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/c/Freecodecamp" class="video__author">freeCodeCamp.org</a>
+                        </p>
+                        <p class="video__stats">2M views &middot; 1 year ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=McQoNwqY4VQ">
+                        <img class="thumbnail" src="/ytb-img/tumb-4.webp" alt="">
+                    </a>
+                    <div class="video-time">33:39</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/c/KurtCaz">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-4.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-4.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">Kurt Caz</div>
+                                    <div class="channel__info--subscribers">1.07M subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                            <a href="https://www.youtube.com/watch?v=McQoNwqY4VQ" class="video__title">Inside The Dominican Republic's Most Dangerous Hood 🇩🇴</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/c/KurtCaz" class="video__author">Kurt Caz</a>
+                        </p>
+                        <p class="video__stats">10M views &middot; 11 months ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=8PXk7-TOJ6c">
+                        <img class="thumbnail" src="/ytb-img/tumb-5.webp" alt="">
+                    </a>
+                    <div class="video-time">1:21:13</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/c/Podpah">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-5.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-5.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">Podpah</div>
+                                    <div class="channel__info--subscribers">5.76M subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                            <a href="https://www.youtube.com/watch?v=8PXk7-TOJ6c" class="video__title">ADRIANO IMPERADOR - Podpah #438</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/c/Podpah" class="video__author">Podpah</a>
+                        </p>
+                        <p class="video__stats">2.6M views &middot; 1 month ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=eu53N55LEOE">
+                        <img class="thumbnail" src="/ytb-img/tumb-6.webp" alt="">
+                    </a>
+                    <div class="video-time">14:32</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/c/GeorgeJapan">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-6.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-6.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">George Japan</div>
+                                    <div class="channel__info--subscribers">351K subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                            <a href="https://www.youtube.com/watch?v=eu53N55LEOE" class="video__title">Japanese guy reacts to “12 Things NOT to do in Japan”</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/c/GeorgeJapan" class="video__author">George Japan</a>
+                        </p>
+                        <p class="video__stats">4.3M views &middot; 1 year ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=YZ4W964hocA">
+                        <img class="thumbnail" src="/ytb-img/tumb-7.webp" alt="">
+                    </a>
+                    <div class="video-time">8:05</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/c/noogai89">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-7.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-7.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">Alan Becker</div>
+                                    <div class="channel__info--subscribers">19.7M subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                            <a href="https://www.youtube.com/watch?v=YZ4W964hocA" class="video__title">The Warden - Animation vs. Minecraft Shorts Ep 26</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/c/noogai89" class="video__author">Alan Becker</a>
+                        </p>
+                        <p class="video__stats">43M views &middot; 8 months ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=vsTTXYxydOE">
+                        <img class="thumbnail" src="/ytb-img/tumb-8.webp" alt="">
+                    </a>
+                    <div class="video-time">21:20</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/c/StuffMadeHere">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-8.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-8.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">Stuff Made Here</div>
+                                    <div class="channel__info--subscribers">3.9M subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                            <a href="https://www.youtube.com/watch?v=vsTTXYxydOE" class="video__title">Automatic pool stick vs. strangers</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/c/StuffMadeHere" class="video__author">Stuff Made Here</a>
+                        </p>
+                        <p class="video__stats">19M views &middot; 1 year ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=jjel1TMX6dY">
+                        <img class="thumbnail" src="/ytb-img/tumb-9.webp" alt="">
+                    </a>
+                    <div class="video-time">3:15</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/channel/UCWGa9QJWNZTNT71T3Hj7UgA">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-9.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-9.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">LyricsZone</div>
+                                    <div class="channel__info--subscribers">399K subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                        <a href="https://www.youtube.com/watch?v=jjel1TMX6dY" class="video__title">Will Smith - Arabian Nights (Lyrics)</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/channel/UCWGa9QJWNZTNT71T3Hj7UgA" class="video__author">LyricsZone</a>
+                        </p>
+                        <p class="video__stats">400K views &middot; 1 month ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=PZRI1IfStY0">
+                        <img class="thumbnail" src="/ytb-img/tumb-10.webp" alt="">
+                    </a>
+                    <div class="video-time">9:16</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/user/Computerphile">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-10.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-10.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">Computerphile</div>
+                                    <div class="channel__info--subscribers">2.1M subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                            <a href="https://www.youtube.com/watch?v=PZRI1IfStY0" class="video__title">Floating Point Numbers - Computerphile</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/user/Computerphile" class="video__author">Computerphile</a>
+                        </p>
+                        <p class="video__stats">2M views &middot; 8 years ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=8nXqcugV2Y4">
+                        <img class="thumbnail" src="/ytb-img/tumb-11.webp" alt="">
+                    </a>
+                    <div class="video-time">1:38:36</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/channel/UCDK54OyzWnOczY7LzEd9V2Q">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-11.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-11.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">Lofi Ghostie</div>
+                                    <div class="channel__info--subscribers">1M subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                        <a href="https://www.youtube.com/watch?v=8nXqcugV2Y4" class="video__title">3:30 AM Coding Session - Lofi Hip Hop Mix [Study & Coding Beats]</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/channel/UCDK54OyzWnOczY7LzEd9V2Q" class="video__author">Lofi Ghostie</a>
+                        </p>
+                        <p class="video__stats">1.6M views &middot; 1 year ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=JQg5c3u0EDM">
+                        <img class="thumbnail" src="/ytb-img/tumb-12.webp" alt="">
+                    </a>
+                    <div class="video-time">21:06</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/c/STORROR">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-12.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-12.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">STORROR</div>
+                                    <div class="channel__info--subscribers">7.53M subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                            <a href="https://www.youtube.com/watch?v=JQg5c3u0EDM" class="video__title">EXTREME Parkour ESCAPE Room (We Got Stuck!)</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/c/STORROR" class="video__author">STORROR</a>
+                        </p>
+                        <p class="video__stats">5M views &middot; 3 months ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=AKJfakEsgy0">
+                        <img class="thumbnail" src="/ytb-img/tumb-13.webp" alt="">
+                    </a>
+                    <div class="video-time">2:07</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/c/MrBeast6000">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-13.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-13.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">MrBeast</div>
+                                    <div class="channel__info--subscribers">100M subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                            <a href="https://www.youtube.com/watch?v=AKJfakEsgy0" class="video__title">Hi Me In 5 Years</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/c/MrBeast6000" class="video__author">MrBeast</a>
+                        </p>
+                        <p class="video__stats">64M views &middot; 1 year ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=wofz0k6FCMU">
+                        <img class="thumbnail" src="/ytb-img/tumb-14.webp" alt="">
+                    </a>
+                    <div class="video-time">1:37</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/c/ChessBaseIndiachannel">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-14.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-14.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">ChessBase India</div>
+                                    <div class="channel__info--subscribers">950K subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                            <a href="https://www.youtube.com/watch?v=wofz0k6FCMU" class="video__title">The shortest game of Magnus Carlsen's chess career!</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/c/ChessBaseIndiachannel" class="video__author">ChessBase India</a>
+                        </p>
+                        <p class="video__stats">70M views &middot; 2 years ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=9zyyQ23aMb0">
+                        <img class="thumbnail" src="/ytb-img/tumb-15.webp" alt="">
+                    </a>
+                    <div class="video-time">8:53</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/c/MaxFosh">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-15.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-15.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">Max Fosh</div>
+                                    <div class="channel__info--subscribers">1.31M subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                        <a href="https://www.youtube.com/watch?v=9zyyQ23aMb0" class="video__title">The Match That Made Man City Buy
+                            Gabriel Jesus</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/c/MaxFosh" class="video__author">Max Fosh</a>
+                        </p>
+                        <p class="video__stats">7.3M views &middot; 7 months ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=gHlp5sCUDl4">
+                        <img class="thumbnail" src="/ytb-img/tumb-16.webp" alt="">
+                    </a>
+                    <div class="video-time">43:55</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/channel/UCcpbWuPm4GJRhHtO0AYh0GQ">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-16.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-16.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">CS:GO Daily Stream</div>
+                                    <div class="channel__info--subscribers">100K subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                        <a href="https://www.youtube.com/watch?v=gHlp5sCUDl4" class="video__title">S1mple Carries Him Self to GLOBAL 50Kills</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/channel/UCcpbWuPm4GJRhHtO0AYh0GQ" class="video__author">CS:GO Daily Stream</a>
+                        </p>
+                        <p class="video__stats">4.7M views &middot; 3 years ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=wP60JGzwiBg">
+                        <img class="thumbnail" src="/ytb-img/tumb-17.webp" alt="">
+                    </a>
+                    <div class="video-time">0:53</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/c/Coldhandsmoto">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-17.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-17.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">Coldhands</div>
+                                    <div class="channel__info--subscribers">102K subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                        <a href="https://www.youtube.com/watch?v=wP60JGzwiBg" class="video__title">Put a smile on a kid's face</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/c/Coldhandsmoto" class="video__author">Coldhands</a>
+                        </p>
+                        <p class="video__stats">62M views &middot; 6 years ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=RfeVPxdSwaM">
+                        <img class="thumbnail" src="/ytb-img/tumb-18.webp" alt="">
+                    </a>
+                    <div class="video-time">3:43</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/channel/UCso6_qEFP5jGnON-Fh8mU0w">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-18.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-18.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">Cameron Green</div>
+                                    <div class="channel__info--subscribers">20.4K subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                        <a href="https://www.youtube.com/watch?v=RfeVPxdSwaM" class="video__title">Shaq using normal sized things and being a giant</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/channel/UCso6_qEFP5jGnON-Fh8mU0w" class="video__author">Cameron Green</a>
+                        </p>
+                        <p class="video__stats">48M views &middot; 2 years ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=KS6XuyAJeFY">
+                        <img class="thumbnail" src="/ytb-img/tumb-19.webp" alt="">
+                    </a>
+                    <div class="video-time">8:03</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/c/FatDino">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-19.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-19.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">Fat Dino</div>
+                                    <div class="channel__info--subscribers">797K subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                        <a href="https://www.youtube.com/watch?v=KS6XuyAJeFY" class="video__title">Subway Surfers but RTX is ON</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/c/FatDino" class="video__author">Fat Dino</a>
+                        </p>
+                        <p class="video__stats">10M views &middot; 1 year ago<p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video__preview">
+                <div class="thumbnail__row">
+                    <a href="https://www.youtube.com/watch?v=OyGi_sfMPEE">
+                        <img class="thumbnail" src="/ytb-img/tumb-20.webp" alt="">
+                    </a>
+                    <div class="video-time">8:08</div>
+                </div>
+                <div class="video_info_grid">
+                    <a href="https://www.youtube.com/c/PokeTipsOfficial">
+                        <div class="channel__container">
+                            <img src="/ytb-img/channel-20.jpg" class="profile__picture" alt="">
+                            <div class="channel__tooltip">
+                                <img class="channel__container--img" src="/ytb-img/channel-20.jpg"
+                                    alt="">
+                                <div class="channel__container--info">
+                                    <div class="channel__info--name">PokeTips</div>
+                                    <div class="channel__info--subscribers">969K subscribers</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="video__info">
+                        <p class="video__info--container">
+                        <a href="https://www.youtube.com/watch?v=OyGi_sfMPEE" class="video__title">How Far Can You Go with only TWO GYM BADGES in Pokemon Lets Go Pikachu and Eevee?</a>
+                        </p>
+                        <p class="video__author--container">
+                            <a href="https://www.youtube.com/c/PokeTipsOfficial" class="video__author">PokeTips</a>
+                        </p>
+                        <p class="video__stats">3.6M views &middot; 3 years ago<p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main> 
+</body>
+</html>
